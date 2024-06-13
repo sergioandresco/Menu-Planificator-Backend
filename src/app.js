@@ -7,7 +7,6 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-// Rutas de usuarios
 app.use('/users', userRoutes);
 
 app.listen(port, () => {
