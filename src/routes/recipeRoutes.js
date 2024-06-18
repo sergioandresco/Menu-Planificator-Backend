@@ -1,4 +1,3 @@
-// src/routes/recipeRoutes.js
 const express = require('express');
 const { createRecipe } = require('../controllers/recipeController');
 
